@@ -1,7 +1,13 @@
 {
   "presets": [
     "react",
-    "es2015"
+    "es2015",
+    "stage-1"
+  ],
+  "plugins": [
+    "syntax-decorators",
+    "syntax-class-properties",
+    "syntax-object-rest-spread"
   ],
   "env": {
     "start": {
