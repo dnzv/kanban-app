@@ -8,7 +8,7 @@ class Note extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello, This is React!</h1>
+        <h1>Hello, this is React!</h1>
       </div>
     );
   }
