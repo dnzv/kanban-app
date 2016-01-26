@@ -8,9 +8,9 @@ class Notes extends React.Component {
 
   render() {
     return(
-      <ul>
+      <ul className="notes">
         {this.props.notes.map(note =>
-          <li key={note.id}>
+          <li className="note" key={note.id}>
             <Note task={note.task}
                   onEdit={this.props.onEdit.bind(null, note.id)}
                   onDelete={this.props.onDelete.bind(null, note.id)} />

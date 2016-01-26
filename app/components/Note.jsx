@@ -44,8 +44,8 @@ class Note extends React.Component {
 
     return (
       <div onClick={this.edit}>
-        <span>{this.props.task}</span>
-        {onDelete ? <button onClick={onDelete}>x</button> : null}
+        <span className="task">{this.props.task}</span>
+        {onDelete ? <button className="delete-note" onClick={onDelete}>x</button> : null}
       </div>
     );
   };
