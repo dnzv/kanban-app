@@ -1,6 +1,6 @@
 import React from 'react';
 import AltContainer from 'alt-container';
-import Lanes from './Lanes.jsx';
+import Lanes from './Lanes';
 import LaneActions from '../actions/LaneActions';
 import LaneStore from '../stores/LaneStore';
 
@@ -12,7 +12,7 @@ class App extends React.Component {
         <AltContainer
           stores={[LaneStore]}
           inject={{
-            lanes: () => LaneStore.getState().lanes
+            lanes: () => LaneStore.getState().lanes || []
           }}>
           <Lanes />
         </AltContainer>
