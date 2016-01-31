@@ -1,4 +1,14 @@
+# Dependency directory
 node_modules
+
+# Mac files
 .DS_Store
-npm-debug.log
+
+# Logs
+*.log
+
+# Webpack build statistics
 stats.json
+
+# build folder
+build
