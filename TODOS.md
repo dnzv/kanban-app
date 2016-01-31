@@ -1,5 +1,5 @@
 # Mods
-==========
+
 Some modification ideas for Kanban app.
 
 ## 1. Use localForage For Persistence
@@ -20,8 +20,6 @@ Turn Lane component into a [namespaced component](https://facebook.github.io/rea
 
 ## 5. Misc.
 
-- [ ] Implement `removeNote(noteId)`
-......It will through `LaneStore` and get rid of the specified note if it finds it by id.
+- [ ] Implement `removeNote(noteId)` (It will go through `LaneStore` and get rid of the specified note if it finds it by id)
 
-- [ ] Drop `detachFromLane`.
-......After implementing `removeNote`.
+- [ ] Drop `detachFromLane` (After implementing `removeNote`)
