@@ -1,3 +1,3 @@
 # Kanban App
 
-A simple kanban application with React and Webpack.
+Kanban application from [SurviveJS](http://survivejs.com/webpack_react/introduction/). Built with React, Alt and Webpack.
